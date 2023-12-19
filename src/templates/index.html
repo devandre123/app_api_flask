@@ -16,16 +16,16 @@
     <form action="{{ url_for('page_home')}}", method="POST">
         <div class="form-group w-25">
             <label for="bd1">Banco de Dados</label>
-            <input class="form-control" id="bd1" type="text" name="bd" placeholder="Insira o nome do DB">
+            <input class="form-control" id="bd1" type="text" name="bd" placeholder="Insira o nome do DB" required>
             <p></p>
             <label for="tb1">Tabela</label>
-            <input class="form-control" id="tb1" type="text" name="tabela" placeholder="Insira o nome da Tabela">
+            <input class="form-control" id="tb1" type="text" name="tabela" placeholder="Insira o nome da Tabela" required>
             <p></p>
             <label for="audiencia">Audiencia</label>
-            <input class="form-control" id="audiencia" type="text" name="audiencia" placeholder="Defina o noma da audiência">
+            <input class="form-control" id="audiencia" type="text" name="audiencia" placeholder="Defina o noma da audiência"required>
             <p></p>
             <label for="midia">Mídia</label>
-            <input class="form-control" id="midia" type="text" name="midia" placeholder="Insira o nome da midia para envio"> 
+            <input class="form-control" id="midia" type="text" name="midia" placeholder="Insira o nome da midia para envio" required> 
             <p></p> 
         </div>
         <button class="btn btn-success">Enviar</button>  
