@@ -15,7 +15,8 @@ db = SQLAlchemy(app)
 databases = []
 
 
-con = sqlite3.connect("/home/andre/Documents/projetos/app_api_flask/src/app_andre.sqlite3")
+#con = sqlite3.connect("/home/andre/Documents/projetos/app_api_flask/src/app_andre.sqlite3")
+con = sqlite3.connect("//home/ubuntu/projects/app_flask/app_api_flask/src/app_andre.sqlite3")
 
 cur = con.cursor()
 
